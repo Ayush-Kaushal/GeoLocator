@@ -14,5 +14,5 @@ This project is an attempt to build a GeoGuessr AI that can predict the coordina
 A pretrained Resnet18 model has been used for predicting the coordinates of the location. The fully connected layer has been modified to predict the latitude and longitude from the input image. Adam optimizer along with MSE loss has been used for optimization.
 
 ## Visualization
-__Folium__ library has been used to visualize the actual and predicted coordiantes for better understanding. The green marker represents the actual loation whereas the red marker represents the predicted loction.
+__Folium__ library has been used to visualize the actual and predicted coordinates for better understanding. The green marker represents the actual location whereas the red marker represents the predicted location.
 ![Actual vs Predicted](foliumOutput.PNG)
