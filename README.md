@@ -10,9 +10,9 @@ This project is an attempt to build a GeoGuessr AI that can predict the coordina
 - coordinates.csv file contains the latitude and longitude of each image. 
 - The images in the dataset have size 640x640.
 
-## Model Architecture
+## Model
 A pretrained Resnet18 model has been used for predicting the coordinates of the location. The fully connected layer has been modified to predict the latitude and longitude from the input image. Adam optimizer along with MSE loss has been used for optimization.
 
-## Results
-__Folium__ library has been used to visulaize the actual and predicted coordiantes for better understanding. 
+## Visualization
+__Folium__ library has been used to visualize the actual and predicted coordiantes for better understanding. The green marker represents the actual loation whereas the red marker represents the predicted loction.
 ![Actual vs Predicted](foliumOutput.PNG)
